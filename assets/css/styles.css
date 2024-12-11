@@ -44,7 +44,7 @@ body {
 }
 
 .get-started-content {
-  width: 60%;
+  width: 55%;
 }
 
 .get-started-content p {
@@ -59,8 +59,9 @@ body {
 }
 
 .get-started-img img {
-  width: 400px;
+  width: 300px;
   height: 400px;
+  object-fit: cover;
   border-radius: 10px;
 }
 
