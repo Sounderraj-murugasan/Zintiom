@@ -33,14 +33,14 @@ $(document).ready(function () {
   });
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  const carouselContainer = document.querySelector(".js-slick-container");
-  const carouselItem = document.querySelector(".client-card");
+// document.addEventListener("DOMContentLoaded", function () {
+//   const carouselContainer = document.querySelector(".js-slick-container");
+//   const carouselItem = document.querySelector(".client-card");
 
-  const numberOfItems = 10;
+//   const numberOfItems = 10;
 
-  for (let i = 0; i < numberOfItems; i++) {
-    const clonedItem = carouselItem.cloneNode(true);
-    carouselContainer.appendChild(clonedItem);
-  }
-});
+//   for (let i = 0; i < numberOfItems; i++) {
+//     const clonedItem = carouselItem.cloneNode(true);
+//     carouselContainer.appendChild(clonedItem);
+//   }
+// });
